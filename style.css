@@ -32,6 +32,47 @@ body {
     flex-direction: column;
 }
 
+@media (max-width: 1080px) {
+    .cardUser__cardContent {
+        background-color: rgba(35, 78, 0, 0.788);
+        width: 400px;
+        height: 650px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .cardUser__buttonsContainer {
+        gap: 10px;
+        margin-top: 5px;
+    }
+
+    .cardUser__linkButtons {
+        background-color: rgb(19, 43, 0);
+        width: 65%;
+        height: 50px;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        gap: 5px;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+
+    .copyright p{
+        margin-top: 5px;
+        color: white;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 .cardUser__imageUser img{
     border-radius: 50%;
     border: 2px solid white;
