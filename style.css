@@ -69,6 +69,11 @@ body {
     gap: 15px;
     border-radius: 10px;
     text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.cardUser__linkButtons:hover {
+    background-color: rgb(72, 136, 19);
 }
 
 .cardUser__linkButtons__image img {
@@ -107,6 +112,11 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.buttons__content:hover {
+    background-color: rgb(72, 136, 19);
 }
 
 .buttons__contact {
