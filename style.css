@@ -38,6 +38,7 @@ body {
     width: 200px;
     height: 200px;
     margin: 15px 0;
+    object-fit: cover;
 }
 
 .cardUser__cardTitle h1 {
